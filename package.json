@@ -7,7 +7,7 @@
     "test": "mocha -r ts-node/register tests/**/*.spec.ts",
     "start": "node --inspect=5858 -r ts-node/register ./src/index.ts",
     "dev": "nodemon",
-    "build": "eslint --cache --fix 'src/**/*.ts' && tsc",
+    "build": "npm i",
     "format": "prettier --write src/**",
     "start:prod": "node dist/index.js"
   },
